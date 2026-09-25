@@ -1,1 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K D Niveditha | Resume</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef1f5;
+    color: #263238;
+    line-height: 1.6;
+  }
+  .resume {
+    max-width: 900px;
+    margin: 35px auto;
+    background: #fff;
+    box-shadow: 0 12px 35px rgba(0,0,0,.10);
+    display: grid;
+    grid-template-columns: 290px 1fr;
+    min-height: 1100px;
+  }
+  .sidebar {
+    background: #183b56;
+    color: #fff;
+    padding: 42px 30px;
+  }
+  .name {
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.15;
+    margin-bottom: 8px;
+  }
+  .role {
+    font-size: 14px;
+    color: #b9d9e8;
+    margin-bottom: 32px;
+    letter-spacing: .4px;
+  }
+  .side-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 27px 0 12px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+  }
+  .contact p, .personal p {
+    font-size: 13px;
+    margin: 9px 0;
+    word-break: break-word;
+  }
+  .skill {
+    margin: 10px 0;
+    font-size: 13px;
+  }
+  .main {
+    padding: 42px 45px;
+  }
+  .section { margin-bottom: 30px; }
+  .section h2 {
+    color: #183b56;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #dce7ee;
+  }
+  .objective {
+    font-size: 14px;
+    color: #455a64;
+    text-align: justify;
+  }
+  .education {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .education th {
+    background: #183b56;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+  .education td {
+    padding: 11px 10px;
+    border-bottom: 1px solid #e2e7eb;
+  }
+  .item { margin-bottom: 18px; }
+  .item h3 {
+    color: #263238;
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .meta {
+    color: #6c7a82;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  ul { padding-left: 20px; }
+  li { margin: 5px 0; font-size: 14px; color: #455a64; }
+  .course {
+    padding: 15px 17px;
+    background: #f4f8fa;
+    border-left: 4px solid #2b6f95;
+    font-weight: 600;
+    color: #263238;
+  }
+  .declaration {
+    font-size: 13px;
+    color: #596970;
+    text-align: justify;
+  }
+  .print-btn {
+    position: fixed;
+    right: 22px;
+    top: 20px;
+    border: 0;
+    background: #183b56;
+    color: #fff;
+    padding: 11px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  }
+  .print-btn:hover { background: #245775; }
+
+  @media (max-width: 700px) {
+    .resume { grid-template-columns: 1fr; margin: 0; }
+    .sidebar { padding: 30px 25px; }
+    .main { padding: 30px 25px; }
+    .print-btn { position: static; display: block; margin: 15px auto; }
+  }
+  @media print {
+    body { background: #fff; }
+    .resume { margin: 0; box-shadow: none; max-width: none; }
+    .print-btn { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+
+<div class="resume">
+  <aside class="sidebar">
+    <div class="name">K D<br>NIVEDITHA</div>
+    <div class="role">Chemistry Graduate</div>
+
+    <div class="side-title">Contact</div>
+    <div class="contact">
+      <p>📍 Erumapetty, Kerala</p>
+      <p>📞 9995376951</p>
+      <p>✉️ nivedithakd626@gmail.com</p>
+    </div>
+
+    <div class="side-title">Personal Details</div>
+    <div class="personal">
+      <p><strong>Name</strong><br>K D Niveditha</p>
+      <p><strong>Place</strong><br>Erumapetty</p>
+    </div>
+
+    <div class="side-title">Skills</div>
+    <div class="skill">• Laboratory Skills</div>
+    <div class="skill">• Analytical Skills</div>
+    <div class="skill">• Scientific Knowledge</div>
+    <div class="skill">• Observation &amp; Problem Solving</div>
+    <div class="skill">• Communication &amp; Teamwork</div>
+    <div class="skill">• Willingness to Learn</div>
+  </aside>
+
+  <main class="main">
+    <section class="section">
+      <h2>Profile</h2>
+      <p class="objective">
+        Motivated and enthusiastic chemistry graduate with academic knowledge and
+        practical exposure through industrial internship and additional training
+        in food analysis. Interested in developing laboratory, analytical and
+        research skills while contributing effectively in a professional environment.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <table class="education">
+        <thead>
+          <tr><th>Qualification</th><th>Achievement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>10th Standard</td><td>Full A+</td></tr>
+          <tr><td>Plus Two</td><td>97.5%</td></tr>
+          <tr><td>Degree</td><td>9.2 CGPA</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Internship</h2>
+      <div class="item">
+        <h3>Sitaram Ayurveda Pvt. Limited</h3>
+        <div class="meta">One-Month Internship</div>
+        <ul>
+          <li>Gained exposure to a professional working environment.</li>
+          <li>Developed practical knowledge through industrial training.</li>
+          <li>Gained experience in observing laboratory and organizational procedures.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Additional Course</h2>
+      <div class="course">Practical Methods in Food Analysis</div>
+      <ul style="margin-top:10px;">
+        <li>Gained basic knowledge of practical techniques used in food analysis.</li>
+        <li>Developed familiarity with analytical methods and laboratory practices.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Declaration</h2>
+      <p class="declaration">
+        I hereby declare that the information provided above is true and correct
+        to the best of my knowledge and belief.
+      </p>
+    </section>
+  </main>
+</div>
+
+</body>
+</html>
 
